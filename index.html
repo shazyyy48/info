@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>shazyyy — Ангелина Николаева</title>
+<meta name="description" content="shazyyy: Blue Team, криптография, форензика, OSINT, CTF. Команда NLNC.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:#fff;color:#000;font:600 17px/1.6 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:700px;margin:0 auto;padding:max(24px,env(safe-area-inset-top)) 14px max(40px,env(safe-area-inset-bottom))}
+.blk{display:flex;gap:22px;align-items:center;justify-content:space-between;border:2px solid #000;border-radius:10px;padding:clamp(18px,4vw,30px);background:#fff}
+.txt{flex:1;min-width:0}
+.step{display:inline-block;border:1.5px solid #000;border-radius:99px;padding:0 10px;font-size:13px;line-height:1.7;margin-bottom:10px}
+h1{font-size:clamp(44px,12vw,72px);line-height:1;margin:0 0 6px;letter-spacing:-.03em;font-weight:600}
+h2{font-size:26px;line-height:1.2;margin:0 0 8px;letter-spacing:-.01em;font-weight:600}
+p{margin:0 0 8px}
+.sub{font-size:21px}
+ul{margin:0;padding-left:22px}
+li{margin:2px 0}
+li::marker{color:#999}
+a{color:#000;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
+a:hover,a:focus-visible{background:#000;color:#fff;outline:0}
+.grey{color:#777;font-size:14px}
+.mxw{flex:none;text-align:center}
+.mx{display:grid;grid-template-columns:repeat(4,30px);gap:0;border:2px solid #000}
+.mx i{font-style:normal;width:30px;height:30px;display:flex;align-items:center;justify-content:center;font-size:12px;border:.5px solid #bbb;background:#fff;transition:background .15s,color .15s}
+.mx i.f{background:#000;color:#fff}
+.cap{font-size:12px;color:#777;margin-top:6px}
+.ar{position:relative;height:60px;display:flex;justify-content:center}
+.ar svg{width:24px;height:60px;overflow:visible}
+.ar line{stroke:#000;stroke-width:2.5;stroke-dasharray:6 6;animation:flow .7s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-12}}
+.ar span{position:absolute;left:calc(50% + 24px);top:18px;font-size:14px;color:#777}
+.ct{font-size:clamp(15px,4.4vw,22px);letter-spacing:.04em;word-break:break-all;font-variant-numeric:tabular-nums;margin:0 0 8px}
+footer{margin-top:26px;font-size:14px;color:#777;text-align:center}
+@media(max-width:600px){body{font-size:16px}.blk{flex-direction:column;align-items:flex-start}.mxw{align-self:center}}
+@media(prefers-reduced-motion:reduce){.ar line{animation:none}}
+</style>
+</head>
+<body>
+<main>
+
+<section class="blk" data-mx="0">
+  <div class="txt">
+    <span class="step">plaintext</span>
+    <h1>shazyyy</h1>
+    <p class="sub">Ангелина Николаева</p>
+    <p class="grey">Blue Team · 16 символов превращаются в матрицу 4×4</p>
+  </div>
+  <div class="mxw"><div class="mx"></div><div class="cap">«shazyyy_NLNC_ctf»</div></div>
+</section>
+
+<div class="ar"><svg viewBox="0 0 24 60"><line x1="12" y1="0" x2="12" y2="46"/><path d="M4 42L12 56L20 42Z" fill="#000"/></svg><span>⊕ ключ команды</span></div>
+
+<section class="blk" data-mx="1">
+  <div class="txt">
+    <span class="step">AddRoundKey</span>
+    <h2>Команда</h2>
+    <p>Играю в CTF за <b style="font-weight:600">NLNC</b> — N0L0gs_N0Cr1me.</p>
+    <p class="grey">Ключ шифра: N0L0gs_N0Cr1me!!</p>
+  </div>
+  <div class="mxw"><div class="mx"></div><div class="cap">plaintext ⊕ key</div></div>
+</section>
+
+<div class="ar"><svg viewBox="0 0 24 60"><line x1="12" y1="0" x2="12" y2="46"/><path d="M4 42L12 56L20 42Z" fill="#000"/></svg><span>раунд 1</span></div>
+
+<section class="blk" data-mx="2">
+  <div class="txt">
+    <span class="step">SubBytes</span>
+    <h2>Чем я занимаюсь</h2>
+    <p>Blue Team. Увлекаюсь криптографией и форензикой, коммерческим OSINT, а также CTF-соревнованиями: web, stego, forensics, crypto, osint.</p>
+  </div>
+  <div class="mxw"><div class="mx"></div><div class="cap">каждый байт → S-box</div></div>
+</section>
+
+<div class="ar"><svg viewBox="0 0 24 60"><line x1="12" y1="0" x2="12" y2="46"/><path d="M4 42L12 56L20 42Z" fill="#000"/></svg></div>
+
+<section class="blk" data-mx="3">
+  <div class="txt">
+    <span class="step">ShiftRows</span>
+    <h2>CTF</h2>
+    <ul>
+      <li>Russian CTF Cup 2025</li>
+      <li>Alfa CTF 2025</li>
+      <li>Alfa CTF 2026</li>
+      <li>TCTF 2024</li>
+    </ul>
+  </div>
+  <div class="mxw"><div class="mx"></div><div class="cap">строки сдвигаются</div></div>
+</section>
+
+<div class="ar"><svg viewBox="0 0 24 60"><line x1="12" y1="0" x2="12" y2="46"/><path d="M4 42L12 56L20 42Z" fill="#000"/></svg></div>
+
+<section class="blk" data-mx="4">
+  <div class="txt">
+    <span class="step">MixColumns</span>
+    <h2>Образование</h2>
+    <ul>
+      <li>МШП, 2018–2022</li>
+      <li>Т-образование ИБ (ТШП), 2026</li>
+      <li>Основной состав сборной Москвы по ИБ, 2026</li>
+    </ul>
+  </div>
+  <div class="mxw"><div class="mx"></div><div class="cap">столбцы перемешиваются</div></div>
+</section>
+
+<div class="ar"><svg viewBox="0 0 24 60"><line x1="12" y1="0" x2="12" y2="46"/><path d="M4 42L12 56L20 42Z" fill="#000"/></svg></div>
+
+<section class="blk" data-mx="5">
+  <div class="txt">
+    <span class="step">AddRoundKey</span>
+    <h2>Ссылки</h2>
+    <ul>
+      <li>GitHub: <a href="https://github.com/shazyyy48" target="_blank" rel="noopener">shazyyy48</a></li>
+    </ul>
+  </div>
+  <div class="mxw"><div class="mx"></div><div class="cap">⊕ ключ раунда 1</div></div>
+</section>
+
+<div class="ar"><svg viewBox="0 0 24 60"><line x1="12" y1="0" x2="12" y2="46"/><path d="M4 42L12 56L20 42Z" fill="#000"/></svg><span>ещё 9 раундов</span></div>
+
+<section class="blk" data-mx="6">
+  <div class="txt">
+    <span class="step">ciphertext</span>
+    <h2>Итог</h2>
+    <p class="ct" id="ct"></p>
+    <p class="grey">«shazyyy_NLNC_ctf» после 10 раундов шифрования AES-128</p>
+  </div>
+  <div class="mxw"><div class="mx"></div><div class="cap">plaintext → ciphertext</div></div>
+</section>
+
+<footer>shazyyy · NLNC</footer>
+</main>
+
+<script>
+/* ---------- real AES-128 ---------- */
+const SB=new Uint8Array(256);
+(function(){let p=1,q=1;const r=(x,n)=>((x<<n)|(x>>(8-n)))&255;
+do{p=(p^(p<<1)^(p&128?283:0))&255;q^=q<<1;q^=q<<2;q^=q<<4;q&=255;if(q&128)q^=9;
+SB[p]=q^r(q,1)^r(q,2)^r(q,3)^r(q,4)^99}while(p!==1);SB[0]=99})();
+const xt=a=>((a<<1)^(a&128?27:0))&255;
+const enc=s=>[...s].map(c=>c.charCodeAt(0));
+const KEY=enc("N0L0gs_N0Cr1me!!"),PT=enc("shazyyy_NLNC_ctf");
+const WK=[];for(let i=0;i<16;i+=4)WK.push(KEY.slice(i,i+4));
+for(let i=4,rc=1;i<44;i++){let t=WK[i-1].slice();
+if(i%4===0){t=[SB[t[1]]^rc,SB[t[2]],SB[t[3]],SB[t[0]]];rc=xt(rc)}
+WK.push(WK[i-4].map((b,j)=>b^t[j]))}
+const RK=r=>[].concat(WK[4*r],WK[4*r+1],WK[4*r+2],WK[4*r+3]);
+const ark=(s,r)=>{const k=RK(r);return s.map((b,i)=>b^k[i])};
+const sub=s=>s.map(b=>SB[b]);
+const shift=s=>s.map((_,i)=>{const c=i>>2,r=i&3;return s[((c+r)%4)*4+r]});
+const mix=s=>{const o=[];for(let c=0;c<4;c++){const[a,b,d,e]=s.slice(c*4,c*4+4);
+o.push(xt(a)^xt(b)^b^d^e,a^xt(b)^xt(d)^d^e,a^b^xt(d)^xt(e)^e,xt(a)^a^b^d^xt(e))}return o};
+
+/* states shown in each block: [from, to] */
+const s1=ark(PT,0),a=sub(s1),b=shift(a),c=mix(b),d=ark(c,1);
+let ct=d;for(let r=2;r<=10;r++){ct=shift(sub(ct));if(r<10)ct=mix(ct);ct=ark(ct,r)}
+const PAIRS=[[PT,PT,1],[PT,s1],[s1,a],[a,b],[b,c],[c,d],[PT,ct]];
+const hex=n=>n.toString(16).padStart(2,"0");
+document.getElementById("ct").textContent=ct.map(hex).join(" ");
+
+/* ---------- matrices ---------- */
+const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+const M=[...document.querySelectorAll(".blk")].map((el,k)=>{
+ const g=el.querySelector(".mx"),cells=[];
+ for(let r=0;r<4;r++)for(let col=0;col<4;col++){const i=document.createElement("i");g.appendChild(i);cells[col*4+r]=i}
+ const [from,to,chars]=PAIRS[k];
+ const o={el,cells,from,to,chars,vis:false,off:k*350};
+ draw(o,from);
+ if(k>0&&!reduce)new IntersectionObserver(e=>{o.vis=e[0].isIntersecting}).observe(el);
+ return o});
+function txt(o,v){return o.chars?String.fromCharCode(v):hex(v)}
+function draw(o,arr){arr.forEach((v,i)=>{o.cells[i].textContent=txt(o,v)})}
+const T=6000;
+function tick(now){
+ for(const o of M){
+  if(!o.vis||o===M[0])continue;
+  const p=((now+o.off)%T)/T;
+  for(let i=0;i<16;i++){
+   const ch=o.from[i]!==o.to[i],cell=o.cells[i];let v=o.from[i],f=false;
+   if(p<.15){}
+   else if(p<.4){if(ch){v=(Math.random()*256)|0;f=true}}
+   else if(p<.5){v=o.to[i];f=ch}
+   else if(p<.88){v=o.to[i]}
+   else{if(ch){v=(Math.random()*256)|0;f=true}}
+   const t=hex(v);if(cell.textContent!==t)cell.textContent=t;
+   cell.classList.toggle("f",f)}
+ }
+ requestAnimationFrame(tick)}
+if(reduce)M.slice(1).forEach(o=>draw(o,o.to));else requestAnimationFrame(tick);
+</script>
+</body>
+</html>
